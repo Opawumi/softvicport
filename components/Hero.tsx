@@ -63,7 +63,7 @@ export default function Hero() {
               transition={{ delay: 0.1, duration: 0.8 }}
               className="inline-block mb-4 px-4 py-2 bg-purple-500/10 border border-purple-500/30 rounded-full"
             >
-              <span className="text-purple-400 text-sm font-semibold">Frontend Engineer</span>
+              <span className="text-purple-400 text-sm font-semibold">Software Developer</span>
             </motion.div>
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
