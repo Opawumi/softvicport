@@ -13,14 +13,14 @@ export default function Hero() {
     const element = document.getElementById('about')
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' })
-    }  
+    }
   }
 
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Animated background elements */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-purple-900/20 to-pink-900/20" />
-      
+      <div className="absolute inset-0 bg-gradient-to-br from-emerald-900/20 via-slate-900/20 to-teal-900/20" />
+
       {/* Floating code elements */}
       <motion.div
         className="absolute top-20 left-10 text-6xl opacity-10"
@@ -36,15 +36,15 @@ export default function Hero() {
       >
         {'{}'}
       </motion.div>
-      
+
       {/* Web and Mobile Icons */}
       <motion.div
-        className="absolute top-1/4 right-1/4 w-32 h-32 border-2 border-purple-500/30 rounded-lg opacity-20"
+        className="absolute top-1/4 right-1/4 w-32 h-32 border-2 border-emerald-500/30 rounded-lg opacity-20"
         animate={{ rotate: [0, 360], scale: [1, 1.1, 1] }}
         transition={{ duration: 20, repeat: Infinity }}
       />
       <motion.div
-        className="absolute bottom-1/4 left-1/4 w-24 h-40 border-2 border-blue-500/30 rounded-3xl opacity-20"
+        className="absolute bottom-1/4 left-1/4 w-24 h-40 border-2 border-teal-500/30 rounded-3xl opacity-20"
         animate={{ rotate: [0, -360], scale: [1, 1.1, 1] }}
         transition={{ duration: 25, repeat: Infinity }}
       />
@@ -61,17 +61,17 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1, duration: 0.8 }}
-              className="inline-block mb-4 px-4 py-2 bg-purple-500/10 border border-purple-500/30 rounded-full"
+              className="inline-block mb-4 px-4 py-2 bg-emerald-500/10 border border-emerald-500/30 rounded-full"
             >
-              <span className="text-purple-400 text-sm font-semibold">Software Developer</span>
+              <span className="text-emerald-400 text-sm font-semibold">Software Developer</span>
             </motion.div>
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.8 }}
-              className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent"
+              className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-emerald-400 via-teal-500 to-cyan-500 bg-clip-text text-transparent"
             >
-              Hi, I'm Victor
+              Hi, I'm Softvic
             </motion.h1>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
@@ -87,20 +87,20 @@ export default function Hero() {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-lg md:text-xl text-gray-300 mb-8 max-w-xl"
             >
-              I craft beautiful, responsive web applications and mobile apps with modern technologies. 
+              I craft beautiful, responsive web applications and mobile apps with modern technologies.
               Passionate about creating seamless user experiences.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6, duration: 0.8 }}
-              className="flex gap-4 flex-wrap"
+              className="flex gap-4 flex-wrap justify-center md:justify-start"
             >
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={scrollToAbout}
-                className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg font-semibold shadow-lg hover:shadow-xl transition-shadow"
+                className="px-8 py-3 bg-gradient-to-r from-emerald-500 to-teal-600 text-white rounded-lg font-semibold shadow-lg hover:shadow-xl transition-shadow"
               >
                 Learn More
               </motion.button>
@@ -111,13 +111,13 @@ export default function Hero() {
                   const element = document.getElementById('contact')
                   if (element) element.scrollIntoView({ behavior: 'smooth' })
                 }}
-                className="px-8 py-3 border-2 border-purple-500 text-purple-400 rounded-lg font-semibold hover:bg-purple-500/10 transition-colors"
+                className="px-8 py-3 border-2 border-emerald-500 text-emerald-400 rounded-lg font-semibold hover:bg-emerald-500/10 transition-colors"
               >
                 Get In Touch
               </motion.button>
             </motion.div>
           </motion.div>
-          
+
           {/* Visual representation of web and mobile */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
@@ -136,11 +136,11 @@ export default function Hero() {
                   <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
                   <div className="w-3 h-3 rounded-full bg-green-500"></div>
                 </div>
-                <div className="bg-gradient-to-br from-blue-500/20 to-purple-600/20 rounded h-48 flex items-center justify-center">
+                <div className="bg-gradient-to-br from-emerald-500/20 to-teal-600/20 rounded h-48 flex items-center justify-center">
                   <div className="text-6xl">🌐</div>
                 </div>
               </motion.div>
-              
+
               {/* Mobile App Mockup */}
               <motion.div
                 className="absolute -bottom-10 -right-10 bg-slate-800/50 backdrop-blur-sm rounded-2xl p-3 border border-slate-700/50 shadow-2xl w-32"
@@ -148,7 +148,7 @@ export default function Hero() {
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 3, repeat: Infinity }}
               >
-                <div className="bg-gradient-to-br from-purple-500/20 to-pink-600/20 rounded-lg h-40 flex items-center justify-center">
+                <div className="bg-gradient-to-br from-emerald-500/20 to-cyan-600/20 rounded-lg h-40 flex items-center justify-center">
                   <div className="text-4xl">📱</div>
                 </div>
               </motion.div>

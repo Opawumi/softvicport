@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-900/80 backdrop-blur-sm border-t border-slate-800 py-8">
+    <footer className="bg-slate-900/80 backdrop-blur-sm border-t border-emerald-500/20 py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <motion.div
@@ -13,7 +13,7 @@ export default function Footer() {
             viewport={{ once: true }}
             className="mb-4 md:mb-0"
           >
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
+            <h3 className="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-teal-600 bg-clip-text text-transparent">
               Softvic
             </h3>
             <p className="text-gray-400 text-sm mt-1">Web & Mobile App Developer</p>

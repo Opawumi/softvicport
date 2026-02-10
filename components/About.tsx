@@ -13,10 +13,10 @@ export default function About() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-emerald-400 to-teal-600 bg-clip-text text-transparent">
             About Me
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-teal-600 mx-auto"></div>
         </motion.div>
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <motion.div
@@ -27,11 +27,11 @@ export default function About() {
             className="relative"
           >
             {/* Decorative elements */}
-            <div className="absolute -top-4 -left-4 w-24 h-24 bg-purple-500/10 rounded-full blur-2xl"></div>
-            <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl"></div>
-            <div className="bg-gradient-to-br from-blue-500/10 to-purple-600/10 rounded-2xl p-8 border border-blue-500/20 relative z-10 backdrop-blur-sm">
+            <div className="absolute -top-4 -left-4 w-24 h-24 bg-emerald-500/10 rounded-full blur-2xl"></div>
+            <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-teal-500/10 rounded-full blur-2xl"></div>
+            <div className="bg-gradient-to-br from-emerald-500/10 to-teal-600/10 rounded-2xl p-8 border border-emerald-500/20 relative z-10 backdrop-blur-sm">
               <p className="text-gray-300 text-lg leading-relaxed mb-4">
-                I'm <span className="text-purple-400 font-semibold">Victor Opawumi</span>, a Frontend Engineer based in <span className="text-blue-400">Lagos, Nigeria</span>. I'm passionate about creating innovative web and mobile solutions that solve real-world problems.
+                I'm <span className="text-emerald-400 font-semibold"> Softvic</span>, a web and mobile app developer based in <span className="text-teal-400">Nigeria</span>. I'm passionate about creating innovative web and mobile solutions that solve real-world problems.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed mb-4">
                 With expertise in <span className="text-cyan-400">React.js</span>, <span className="text-cyan-400">Laravel</span>, <span className="text-cyan-400">Kotlin</span>, and modern CSS frameworks, I specialize in building responsive, performant applications that provide exceptional user experiences across web and mobile platforms.
@@ -49,7 +49,7 @@ export default function About() {
             className="grid grid-cols-2 gap-4 relative"
           >
             {/* Decorative background */}
-            <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-pink-500/5 rounded-2xl blur-3xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/5 to-teal-500/5 rounded-2xl blur-3xl"></div>
             {[
               { label: 'Projects Completed', value: '20+', icon: '🚀' },
               { label: 'Repositories', value: '20+', icon: '💻' },
@@ -63,10 +63,10 @@ export default function About() {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1, duration: 0.5 }}
                 whileHover={{ scale: 1.05 }}
-                className="bg-gradient-to-br from-purple-500/10 to-pink-500/10 rounded-xl p-6 border border-purple-500/20 text-center relative z-10 backdrop-blur-sm hover:border-purple-400/40 transition-all"
+                className="bg-gradient-to-br from-emerald-500/10 to-teal-500/10 rounded-xl p-6 border border-emerald-500/20 text-center relative z-10 backdrop-blur-sm hover:border-emerald-400/40 transition-all"
               >
                 <div className="text-4xl mb-2">{stat.icon}</div>
-                <div className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent mb-2">
+                <div className="text-3xl font-bold bg-gradient-to-r from-emerald-400 to-teal-500 bg-clip-text text-transparent mb-2">
                   {stat.value}
                 </div>
                 <div className="text-gray-400 text-sm">{stat.label}</div>
